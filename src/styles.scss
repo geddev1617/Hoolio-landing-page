@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: Brown;
+    src: url("src/assets/fonts/Myfonts/Brown.otf");
+  }
+
+  @font-face {
+    font-family: Museo Sans-100;
+    src: url("src/assets/fonts/Myfonts/MuseoSans-100.otf");
+  }
+
+  @font-face {
+    font-family: Museo Sans_500;
+    src: url("src/assets/fonts/Myfonts/MuseoSans_500.otf");
+  }
+
+  @font-face {
+    font-family: Museo Sans-300;
+    src: url("src/assets/fonts/Myfonts/MuseoSans-300.otf");
+  }
+
+  $colorScheme : (
+  primary:#034AD8,
+  secondary: #80d48d2b,
+  tertiary: #F7B924,
+  app-black: #000,
+  text-Dgrey: #505050,
+  alt:#f2f2f2,
+  bg-green: #0CB30C,
+  danger: #FF005E,
+  bg-coral: #FF005E,
+  outlet: #f1f4f6bf,
+  light:#fff,
+  text-grey: #ADADAD,
+  main:  hsl(218, 28%, 13%),
+  bg-darkblue: hsl(216, 53%, 9%),
+  bg-dark: #171E40,
+);
+
+@function color($key) {
+@return map-get($colorScheme, $key);
+}
+.footercomponent{
+    background: color(bg-dark);
+    color: #fff;
+}

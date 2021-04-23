@@ -1,0 +1,108 @@
+nav{
+    padding-top: 2%;
+  }
+
+  @media screen and (max-width: 992px){
+
+  ul{
+    background: #171E40;
+    padding: 10px;
+  //   text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+nav{
+    padding-top: 6%;
+  }
+
+.navbar-toggler{
+    background-color: #171E40;
+  }
+
+  .nav_cta{
+    // margin-bottom: 15px;
+    padding: 5px 25px;
+    color: #ffffff;
+    // background: #000000;
+    background: #414b7e;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+    .nav_logo, .navbar-brand{
+    width: 70%;
+    height: auto;
+    cursor: pointer;
+}
+
+#about-link,#more-link{
+    font-family: Brown !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 1.0625rem !important;
+    line-height: 127.5%;
+    letter-spacing: 0.01em;
+    color: #ffffff !important;
+    margin-left: 1.5vw;
+  }
+
+  #login-btn{
+      color: #ffffff;
+  }
+}
+
+//   .navbar-brand{
+//       width: 200px;
+//   }
+  
+  #about-link, #more-link{
+    font-family: Brown;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.0625rem;
+    line-height: 127.5%;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-left: 1.6vw;
+  }
+
+
+
+.nav_logo{
+    width: 40%;
+    height: auto;
+    cursor: pointer;
+}
+
+.nav_cta{
+    padding: 5px 25px;
+    color: #ffffff;
+    background: #000000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.nav_cta button{
+    font-family: brown;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 993px){
+    // .nav_logo{
+    //     width: 100%;
+    //     height: auto;
+    //     cursor: pointer;
+    // }
+
+    #login-btn{
+        color: #ffffff;
+    }
+
+    #more-link{
+        padding-right: 25px;
+    }
+}

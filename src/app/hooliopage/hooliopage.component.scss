@@ -1,0 +1,738 @@
+h3{
+    font-family: brown;
+    font-style: normal;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+strong{
+    font-size: 1.875rem;
+}
+
+.ta{
+    text-align: center;
+}
+
+.pad_top{
+    padding-top: 10%;
+}
+
+.top-flex-container{
+    margin-top: 10%;
+}
+
+.top_text{
+    font-family: Brown;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8125rem;
+    line-height: 127.5%;
+    letter-spacing: 0.01em;
+    padding-top: 5%;
+    width: 100%;
+}
+
+.top_text1{
+    font-family: Museo Sans-300;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 127.5%;
+    letter-spacing: 0.01em;
+    padding-top: 3%;
+    width: 100%;
+}
+
+.get_started_cta{
+    margin-top: 5%;
+    padding: 5px 25px;
+    color: #ffffff;
+    background: #2D9CDB;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.feature_box{
+    padding-top: 13%;
+}
+
+.arrow, .innovative{
+    width: 70%;
+    height: auto;
+}
+
+.teamwork, .team1, .team2, .team3{
+    width: 100%;
+    height: auto;
+}
+
+.feedback_section{
+    padding-top: 8%;
+    text-align: center;
+}
+
+.feedback_text{
+    font-family: brown;
+    font-weight: normal;
+}
+
+.feedback_text1, .hour_text1, .easy_text1, .collab_text1{
+    width: 100%;
+    font-weight: normal;
+    font-family: Museo Sans-100;
+    color: black;
+}
+
+.plan_section{
+    margin-top: 22%;
+    padding-bottom: 6%;
+}
+
+.sub_text{
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing_cta{
+    font-family: Brown;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    // line-height: 1em;
+    margin-top: 5%;
+    padding: 3px 50px;
+    color: #ffffff;
+    background: #C02D30;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.subscription_features{
+    padding-top: 8%;
+}
+
+.basic_sub_div, .top-flexitem, .flex_item_teamwork{
+    display: grid;
+    place-items: center;
+}
+
+.team_sub_div{
+    padding-top: 12%;
+    display: grid;
+    place-items: center;
+}
+
+.sub_pad{
+    font-family: Museo Sans_500;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875em;
+    padding-top: 6%;
+    padding-bottom: 4.3%;
+    color: #2D9CDB;
+}
+
+.sub_hr{
+    margin-top: -18px;
+    width: 100%;
+
+}
+
+.feature_item, .feature_items{
+    font-family: Museo Sans-300;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.1875em;
+    color: #000000;
+}
+
+.f_i, .feature_items{
+    margin-top: 3%;
+}
+
+@media only screen and (max-width:1054px){
+    .arrow, .bluecurve, .yellowcurve, .br_none{
+        display: none;
+    }
+
+    .top-flexitem{
+        // display: grid;
+        // place-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .feature_item, .feature_items{
+        text-align: center;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media  (min-width: 481px) and (max-width: 767px){
+
+    .team3{
+        width: 100%;
+        height: auto;
+    }
+
+    .keep_text{
+        font-family: Brown;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.3125rem;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+    }
+
+    .subscription_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .basic_sub_div{
+        padding-top: 0;
+    }
+
+    .con_use{
+        margin-bottom: 0px;
+    }
+
+    .sc{
+        margin-bottom: 0px;
+    }
+
+    .sub_price{
+        margin: 0px;
+    }
+
+    .sub_pad{
+        width: 85%;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .team_sub_div{
+        padding-top: 0px;
+        margin-left: 1.5em;
+    }
+
+    .sub_hr{
+        margin: 0px auto;
+        width: 200px;
+    }
+
+    .subscription_section{
+        position: relative;
+    }
+
+    .pricing_cta{
+    padding: 3px 48px;
+    color: #ffffff;
+    background: #C02D30;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    }
+
+    .p_cta{
+    width: 170px;
+    margin-top: 13px;
+    }
+
+    .fi{
+    width: 200px;
+    }
+
+    .vertical_line{
+    border-left: 0.5px solid #7C7C7D;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 20%;
+    }
+
+
+    ul li {
+    list-style-type: none;
+    background: url(src/assets/correcttick.png) no-repeat center left;
+    }
+
+    ul li span {
+    display: block;
+    margin-left: 1.5em;
+    }
+
+    ul.extra_features li.feature_items span{
+    
+    }
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1054px){
+
+    .icon_div{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .use_icon, .collab_icon{
+        padding-top: 0em;
+    }
+
+    .personalized_section, .isolate_section, .keep_section{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .team1, .team2, .team3{
+        width: 100%;
+        height: auto;
+        padding-top: 0em;
+    }
+
+    .personalized_text, .isolate_text{
+        font-family: Brown;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.6rem;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        text-align: start;
+        width: 100%;
+    }
+
+    .keep_text{
+        font-family: Brown;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.6rem;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        text-align: start;
+        width: 60%; 
+    }
+
+    .personalized_text1, .isolate_text1, .keep_text1{
+        font-family: Museo San-100;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        width: 80%;
+        text-align: start;
+    }
+
+    .subscription_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .basic_sub_div{
+        padding-top: 0em;
+        display: grid;
+        place-items: start;
+    }
+
+    .team_sub_div{
+        padding-top: 0px;
+        display: grid;
+        place-items: start;
+    }
+
+    .sub_text{
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-bottom: 1.5em;
+        font-family: Brown;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    .vertical_line{
+        border-left: 0.5px solid #7C7C7D;
+        height: 80%;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 20%;
+    }
+
+    .sub_pad{
+        width: 95%;
+    }
+    
+    
+    ul li {
+        list-style-type: none;
+        background: url(src/assets/correcttick.png) no-repeat center left;
+      }
+    
+      ul li span {
+        display: block;
+        margin-left: 2em;
+      }
+    
+    // ul.extra_features li.feature_items span{
+    // }
+}
+
+/* Media Query for Laptops and Desktops */
+@media only screen and (min-width: 1055px){
+
+    h3{
+        font-size: 2.3125rem;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        color: #020A17;
+    }
+
+    .hoolio-landingpage{
+        position: relative;
+    }
+
+    .top-flex-container{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-top: 1.9em;
+    }
+
+    .top-flexitem{
+        display: grid;
+        place-items: start;
+        position: relative;
+    }
+
+    .top_text{
+        margin-top: 13%;
+    }
+
+    .top_text1{
+        margin-top: -45px;
+    }
+
+    .arrow-img, .get_started_cta, .feature_box{
+        text-align: start;
+    }
+
+    .arrow-img{
+        position: absolute;
+        top: 51%;
+        left: 48%;
+        width: 50%;
+        height: auto;
+    }
+
+    .get_started_cta{
+        margin-top: -18px;
+        padding: 9px 60px;
+        color: #ffffff;
+        background: #2D9CDB;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .feature_box{
+        margin-top: 20px;
+    }
+
+    .innovative{
+        width: 100%;
+        height: auto;
+    }
+
+    .feedback_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .feedback_text1{
+        font-family: Museo Sans-300;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.3125rem;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        color: #020A17;
+        margin-top: 1%;
+    }
+
+    .bluecurve{
+        position: absolute;
+        bottom: 72%;
+        width: 50%;
+        height: auto;
+        // zoom: 0.75;
+    }
+
+    .icon_div{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4%;
+    }
+
+    .hour_text, .easy_text, .collab_text{
+        font-family: Museo Sans_500;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.4375rem;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        color: #000000;
+    }
+
+    .hour_text1, .easy_text1, .collab_text1{
+        font-size: 1rem;
+        font-family: Museo Sans-300;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        color: #000000;
+        opacity: 0.7;
+    }
+
+    .plan_section{
+        margin-top: 10%;
+        padding-bottom: 0%;
+    }
+
+    .plan_text{
+        font-family: Brown;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.3125rem;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        color: #020A17;
+    }
+
+    .plan_text1{
+        font-family: Museo Sans-300;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.3125rem;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        color: #020A17;
+        padding-top: 2.5%;
+    }
+
+    .yellowcurve{
+        position: absolute;
+        bottom: 54%;
+        left: 87.2%;
+        width: 10%;
+        height: auto;
+        // zoom: 0.75;
+    }
+
+    .personalized_section, .isolate_section, .keep_section{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-top: 6%;
+    }
+
+    .personalized_div, .isolate_div, .keep_div{
+        padding-top: 8%;
+    }
+
+    .team1, .team2, .team3{
+        width: 100%;
+        height: auto;
+    }
+
+    .personalized_text, .isolate_text, .keep_text{
+        font-family: Brown;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.3125rem;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        text-align: start;
+        width: 78%;
+    }
+
+    .personalized_text1, .isolate_text1, .keep_text1{
+        font-size: 1rem;
+        font-family: Museo Sans-300;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 127.5%;
+        letter-spacing: 0.01em;
+        color: #000000;
+        opacity: 0.7;
+        width: 46%;
+        text-align: start;
+    }
+
+    .personalized_text1, .isolate_text1{
+        width: 55%;
+    }
+
+    .pad_top{
+        padding-top: 0px;
+    }
+
+    .pricing_section{
+        margin-top: 4%;
+    }
+
+    .subscription_section{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        padding-top: 6%;
+        padding-bottom: 5%;
+    }
+
+    .basic_sub_div{
+        padding-top: 0em;
+        display: grid;
+        place-items: start;
+    }
+
+    .team_sub_div{
+        padding-top: 0px;
+        display: grid;
+        place-items: start;
+    }
+
+    .sub_text{
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-bottom: 1.5em;
+        font-family: Brown;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    .con_use, .sc{
+        font-family: Museo Sans-300;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.1875em;
+        color: #020A17;
+    }
+
+    .pricing_cta{
+        padding: 9px 135px;
+        color: #ffffff;
+        background: #C02D30;
+        // font-size: 0.757rem;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .vertical_line{
+        border-left: 0.5px solid #7C7C7D;
+        height: 80%;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        // top: 20%;
+        bottom: 8%;
+    }
+
+    .sub_pad{
+        width: 90%;
+    }
+
+    .f_i, .feature_items{
+        margin-top: 10%;
+    }
+    
+    ul li {
+        list-style-type: none;
+        background: url(src/assets/correcttick.png) no-repeat center left;
+      }
+    
+      ul li span {
+        display: block;
+        margin-left: 2em;
+      }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1440px){
+
+}
+
+
+// .feature_item, .feature_items{
+//         padding: 0;
+//         margin: 0; 
+//         text-align: center;
+// }
+
+
+
+// .top-flex-container{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .subscription_section{
+//     position: relative;
+// }
+
+// .vertical_line{
+//     border-left: 0.5px solid #7C7C7D;
+//     height: 350px;
+//     position: absolute;
+//     left: 50%;
+//     margin-left: -3px;
+//     top: 20%;
+// }
+
+
+
+
+// /* Media Query for low resolution  Tablets, Ipads */
+// @media (min-width: 481px) and (max-width: 767px){
+
+// }
+
+// /* Media Query for Tablets Ipads portrait mode */
+// @media (min-width: 768px) and (max-width: 1024px){
+
+// }
+
+// /* Media Query for Laptops and Desktops */
+// @media (min-width: 1025px) and (max-width: 1280px){
+
+// }
+
+// /* Media Query for Large screens */
+// @media (min-width: 1281px){
+
+// }
