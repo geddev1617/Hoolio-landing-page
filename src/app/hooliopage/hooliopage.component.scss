@@ -104,7 +104,6 @@ strong{
     font-style: normal;
     font-weight: bold;
     font-size: 1rem;
-    // line-height: 1em;
     margin-top: 5%;
     padding: 3px 50px;
     color: #ffffff;
@@ -165,8 +164,6 @@ strong{
     }
 
     .top-flexitem{
-        // display: grid;
-        // place-items: center;
         text-align: center;
     }
 }
@@ -389,9 +386,6 @@ strong{
         display: block;
         margin-left: 2em;
       }
-    
-    // ul.extra_features li.feature_items span{
-    // }
 }
 
 /* Media Query for Laptops and Desktops */
@@ -484,7 +478,6 @@ strong{
         bottom: 72%;
         width: 50%;
         height: auto;
-        // zoom: 0.75;
     }
 
     .icon_div{
@@ -546,7 +539,6 @@ strong{
         left: 87.2%;
         width: 10%;
         height: auto;
-        // zoom: 0.75;
     }
 
     .personalized_section, .isolate_section, .keep_section{
@@ -646,7 +638,6 @@ strong{
         padding: 9px 135px;
         color: #ffffff;
         background: #C02D30;
-        // font-size: 0.757rem;
         border: none;
         border-radius: 50px;
         cursor: pointer;
@@ -658,7 +649,6 @@ strong{
         position: absolute;
         left: 50%;
         margin-left: -3px;
-        // top: 20%;
         bottom: 8%;
     }
 
@@ -680,59 +670,3 @@ strong{
         margin-left: 2em;
       }
 }
-
-/* Media Query for Large screens */
-@media (min-width: 1440px){
-
-}
-
-
-// .feature_item, .feature_items{
-//         padding: 0;
-//         margin: 0; 
-//         text-align: center;
-// }
-
-
-
-// .top-flex-container{
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-// }
-
-// .subscription_section{
-//     position: relative;
-// }
-
-// .vertical_line{
-//     border-left: 0.5px solid #7C7C7D;
-//     height: 350px;
-//     position: absolute;
-//     left: 50%;
-//     margin-left: -3px;
-//     top: 20%;
-// }
-
-
-
-
-// /* Media Query for low resolution  Tablets, Ipads */
-// @media (min-width: 481px) and (max-width: 767px){
-
-// }
-
-// /* Media Query for Tablets Ipads portrait mode */
-// @media (min-width: 768px) and (max-width: 1024px){
-
-// }
-
-// /* Media Query for Laptops and Desktops */
-// @media (min-width: 1025px) and (max-width: 1280px){
-
-// }
-
-// /* Media Query for Large screens */
-// @media (min-width: 1281px){
-
-// }

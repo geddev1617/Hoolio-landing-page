@@ -159,7 +159,6 @@ a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        // padding: 3% 24px 0px 24px;
         padding-top: 3%;
     }
 
@@ -242,7 +241,6 @@ a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        // padding: 3% 24px 0px 24px;
         padding-top: 5%;
     }
 
@@ -288,120 +286,5 @@ a{
         margin: 0;
         padding: 0;
     }
-}
-
-
-
-
-
-
-
-
-
-/* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px){
-
-}
-
-/* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1054px){
-
-}
-
-/* Media Query for Laptops and Desktops */
-@media only screen and (min-width: 1055px){
-
-}
-
-/* Media Query for Large screens */
-@media (min-width: 1440px){
-
-}
-
-/* Media Query for Laptops and Desktops */
-// @media only screen and (min-width: 1440px){
-//     .footer_top_sec{
-//         display: flex;
-//         justify-content: center;
-//         text-align: none;
-//         padding-top: 8%;
-//     }
-
-//     .int_text{
-//         font-family: Museo Sans_500;
-//         font-style: normal;
-//         font-size: 2.25rem;
-//         line-height: 2.6rem;
-//     }
-
-//     .int_text1{
-//         font-family: Museo Sans-300;
-//         font-style: normal;
-//         font-weight: normal;
-//         font-size: 1.3rem;
-//         line-height: 1.625rem;
-//     }
-
-//     .getstarted_cta{
-//         margin-top: 5%;
-//     }
-
-//     .logo_div{
-//         display: flex;
-//         justify-content: space-between;
-//         align-items: center;
-//         // padding: 3% 24px 0px 24px;
-//         padding-top: 3%;
-//     }
-
-//     .footer_socials{
-//         padding: 0;
-//     }
-
-//     .social_links{
-//         display: flex;
-//         align-items: center;
-//         justify-content: space-between;
-//     }
-
-//     .link_items{
-//         padding-right: 30%;
-//     }
-
-//     .copyright_div{
-//         display: flex;
-//         flex-direction: row-reverse;
-//         justify-content: space-between;
-//         align-items: center;
-//         padding-top: 0;
-//     }
-
-//     .info_flex{
-//         display: flex;
-//         gap: 0.8rem;
-//         justify-content: space-between;
-//     }
-
-//     .copy a{
-//         font-family: Museo Sans-300;
-//         font-style: normal;
-//         font-weight: normal;
-//         font-size: 0.875rem;
-//         line-height: 127.5%;
-//         letter-spacing: 0.01em;
-//     }
-
-//     .copy{
-//         padding: 0;
-//     }
-
-//     .copy_flex_item{
-//         margin: 0;
-//     }
-// }
-
-/* Media Query for Large screens */
-@media (min-width: 1281px){
-
 }
 
